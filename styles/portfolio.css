@@ -74,6 +74,9 @@ nav li a{
 .secondary-background{
     background-color:#FFF8F3 ;
 }
+.text-center{
+    text-align: center;
+}
 
 /* banner styles */
 .banner-greetings{
@@ -107,11 +110,14 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+     margin-top: 130px;
+     margin-bottom: 130px;
+}
 
 /* about styles */
 .about{
     border-radius: 10px;
-    margin-top: 130px;
     padding: 130px 156px;
     text-align: center;
 }
@@ -128,3 +134,18 @@ main{
     max-width: 827px;
     background-color: #FFFFFF;
 }
+/* skills */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    padding: 30px ;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px #000000  ;
+}
+.skill-des{
+    padding: 30px 150px 50px ;
+}
+
